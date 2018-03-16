@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 1,
+  "name": "tab_rainbow",
+  "version": "1.0",
+  "description": "Sorts tabs by favicon color. Goodbye ugly random tabs! Hello tab rainbow!",
+  "homepage_url": "https://github.com/QuietImCoding/tab_rainbow",
+  "icons": {
+    "48": "icons/rainbow-48.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/rainbow-32.png",
+    "default_title": "tab_rainbow",
+    "default_popup": "popup/tab_rainbow.html"
+  }
+
+}
